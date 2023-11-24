@@ -1,0 +1,8 @@
+<!-- blog/template/blog/post_list.html -->
+<h1>Blog Posts</h1>
+<ul>
+    {% for post in posts %}
+        <li>{{ post.title }}</li>
+        <p>{{ post.content }}</p>
+    {% endfor %}
+</ul>
