@@ -4,6 +4,6 @@ from .models import Post
 
 
 # Create your views here.
-def post_list(request):
+def post_view(request):
     posts = Post.objects.all()
-    return render(request, 'blog/post_list.html', {'posts': posts})
+    return render(request, 'post_list.html', {'posts': posts})
