@@ -1,9 +1,19 @@
 import datetime
+<<<<<<< HEAD
 from django.contrib.auth.models import User
 from django.test import TestCase
 from django.utils.timezone import utc
 from blog.models import Post, Category
 
+=======
+
+from django.contrib.auth.models import User
+from django.test import TestCase
+from django.utils.timezone import utc
+
+from blogging.models import Post, Category
+
+>>>>>>> 1d6145c53db21e8bc17c72aafa7c9796ba0bd4b4
 
 class PostTestCase(TestCase):
     fixtures = ["blogging_test_fixtures.json"]

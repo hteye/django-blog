@@ -1,4 +1,5 @@
 <!-- blog/template/post_list.html -->
+<<<<<<< HEAD
 
 <h1>Recent Posts</h1>
 {% for post in posts %}
@@ -14,3 +15,12 @@
         {% endfor %}
     </ul>
 {% endfor %}
+=======
+<h1>Blog Posts</h1>
+<ul>
+    {% for post in posts %}
+        <li>{{ post.title }}</li>
+        <p>{{ post.text }}</p>
+    {% endfor %}
+</ul>
+>>>>>>> 1d6145c53db21e8bc17c72aafa7c9796ba0bd4b4

@@ -1,5 +1,9 @@
 from django.contrib import admin
 
+<<<<<<< HEAD
+=======
+# noinspection PyUnresolvedReferences
+>>>>>>> 1d6145c53db21e8bc17c72aafa7c9796ba0bd4b4
 from blog.models import Post, Category
 
 
